@@ -21,11 +21,11 @@
     // вставляем стили
     const style = document.createElement('link');
     style.rel = 'stylesheet';
-    style.href = 'assets/css/highlight.min.css';
+    style.href = 'https://raw.githubusercontent.com/flykeeperB/ui-components/master/code-highlighting/assets/css/highlight.min.css';
     document.head.appendChild(style);
     // вставляем скрипт
     const script = document.createElement('script');
-    script.src = 'assets/js/highlight.min.js';
+    script.src = 'https://raw.githubusercontent.com/flykeeperB/ui-components/master/code-highlighting/assets/js/highlight.min.js';
     script.async = 1;
     document.head.appendChild(script);
     script.onload = () => {
